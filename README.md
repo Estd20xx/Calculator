@@ -1,4 +1,4 @@
-# Calculator BY: Sushant Khdka
+# Calculator BY: Sushant Khdka.
 
 Instagram : sushant.exe_
  
