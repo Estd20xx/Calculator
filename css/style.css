@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 19px;
+    font-weight: 500;
+    overflow: hidden;
+}
+.container{
+    height: 100vh;
+    background-image: linear-gradient( to bottom right, rgba(79,51,176,1.0),rgba(210,53,165));
+}
+.inside{
+    position: absolute;
+    margin: 110px 500px;
+    height: 73vh;
+    width: 22%;
+    border-radius: 5px;
+    background-color: rgb(10, 30, 35);
+    box-shadow: 15px 10px 10px 6px rgba(0, 0, 0,0.8);
+    box-shadow: 0px 0px 0px 10px rgba(0, 0, 0,0.6);
+}
+.container .inside input[type=button]:hover{
+    transition: ease;
+    color: rgb(255, 0, 43);
+    transition-delay: 100ms;
+}
+.container .hai{
+    color: rgb(170, 0, 164);
+}
+.container input[type=text]{
+    margin: 0;
+    height: 120px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-style: none;
+    background-color: rgb(13, 97, 97);
+}
+.container input[type=text]:focus{
+    border: none;
+    outline: none;
+}
+input{
+    margin: 5px;
+}
+input[type=button]{
+    cursor: pointer;
+    height: 70px;
+    color: aliceblue;
+    width: 70px;
+    background-color: rgb(27, 47, 56);
+    border-radius: 50%;
+    border-style: none;
+}
+.container .equals{
+    height: 100px;
+    width: 325px;
+    border-radius: 10px;
+}
+
+/* @media screen and (max-width: 992px) {
+    .inside{
+        margin-left: 80px;
+        width: 600px;
+    }
+    #show{
+        height: 170px;
+    }
+    }
+    input[type=button]{
+        width: 130px;
+        height: 120px;
+        margin-top: 10px;
+    }
+    #equals1{
+        height: 130px;
+        width: 580px;
+    }
+  } */
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+   .inside{
+    margin-left: 25px;
+    width: 340px;
+    height: 600px;
+   }
+  }
+  @media screen and (max-width: 380px) {
+    .inside{
+        margin-top: 60px;
+     margin-left: 25px;
+     width: 330px;
+     height: 570px;
+    }
+    input[type=button]{
+        width: 65px;
+        margin-top: 8px;
+    }
+   }
